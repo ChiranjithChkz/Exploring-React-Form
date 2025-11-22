@@ -9,6 +9,7 @@ const ProductManagement = () => {
     const handleAddProduct = newProduct =>{
         const newProducts = [...products, newProduct];
         setProducts(newProducts);
+        
     }
     return (
         <div>
